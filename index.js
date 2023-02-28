@@ -14,7 +14,7 @@ app.use(
 );
 
 
-app.get("/login",Login.login)
+app.post("/login",Login.login)
 
 app.post("/sign",Signup.signup)
 
